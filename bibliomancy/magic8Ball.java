@@ -17,9 +17,9 @@ public class Magic8Ball {
 
         scan.close();
 
-        File kjv = new File("/home/logan/Documents/javaClassProjects/bibliomancy/kjv.txt");
-        File koran = new File("/home/logan/Documents/javaClassProjects/bibliomancy/koran.txt");
-        File iliad = new File("/home/logan/Documents/javaClassProjects/bibliomancy/iliad.txt");
+        File kjv = new File("/PATH/bibliomancy/kjv.txt");
+        File koran = new File("/PATH/bibliomancy/koran.txt");
+        File iliad = new File("/PATH/bibliomancy/iliad.txt");
 
         File[] files = {kjv, koran, iliad};
 
